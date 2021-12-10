@@ -97,5 +97,35 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Cards\0.png" />
+    <Resource Include="Cards\1.png" />
+    <Resource Include="Cards\10.png" />
+    <Resource Include="Cards\11.png" />
+    <Resource Include="Cards\12.png" />
+    <Resource Include="Cards\13.png" />
+    <Resource Include="Cards\14.png" />
+    <Resource Include="Cards\15.png" />
+    <Resource Include="Cards\16.png" />
+    <Resource Include="Cards\17.png" />
+    <Resource Include="Cards\18.png" />
+    <Resource Include="Cards\19.png" />
+    <Resource Include="Cards\2.png" />
+    <Resource Include="Cards\20.png" />
+    <Resource Include="Cards\3.png" />
+    <Resource Include="Cards\4.png" />
+    <Resource Include="Cards\5.png" />
+    <Resource Include="Cards\6.png" />
+    <Resource Include="Cards\7.png" />
+    <Resource Include="Cards\8.png" />
+    <Resource Include="Cards\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logo.png" />
+    <Content Include="Resources\mainmenu.mp3" />
+    <Content Include="Resources\papertake.mp3" />
+    <Content Include="Resources\twitters.mp3" />
+    <Resource Include="tutorial.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
