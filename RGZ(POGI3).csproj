@@ -80,9 +80,6 @@
     <Compile Include="OptionsWindow.xaml.cs">
       <DependentUpon>OptionsWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LeaderboardWindow.xaml.cs">
-      <DependentUpon>LeaderboardWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Start.xaml.cs">
       <DependentUpon>Start.xaml</DependentUpon>
     </Compile>
@@ -105,10 +102,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GameWindow.xaml.cs">
-      <DependentUpon>GameWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="CConnector.cs" />
     <Compile Include="CDataBase.cs" />
     <Compile Include="CConnector.cs" />
     <Compile Include="CDBDataBase.cs" />
@@ -131,9 +124,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OptionsWindow.xaml.cs">
-      <DependentUpon>OptionsWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

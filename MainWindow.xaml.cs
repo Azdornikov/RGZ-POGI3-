@@ -21,12 +21,12 @@ namespace RGZ_POGI3_
     public partial class MainWindow : Window
     {
         CSound sound = new CSound();
-        string fName = "C:/RGZ(POGI3)/Memo/Resources/mainmenu.mp3";
+        string fName = "C:/RGZ(POGI3)/Resources/mainmenu.mp3";
 
         public MainWindow()
         {
             InitializeComponent();
-            //sound.repeat(fName);
+            sound.repeat(fName);
         }
 
         private void tutorial_Click(object sender, RoutedEventArgs e)

@@ -92,7 +92,7 @@ namespace RGZ_POGI3_
                 grid.Children.Add(button);
             }
 
-            fNames = Directory.GetFiles("C:/RGZ(POGI3)/Memo/Cards/");
+            fNames = Directory.GetFiles("C:/RGZ(POGI3)/Cards/");
             imgs = new Image[fNames.Length];
 
             Timer = new System.Windows.Threading.DispatcherTimer();
@@ -118,7 +118,7 @@ namespace RGZ_POGI3_
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            fName = "C:/RGZ(POGI3)/Memo/Resources/papertake.mp3";
+            fName = "C:/RGZ(POGI3)/Resources/papertake.mp3";
 
             for (i = 0; i < fNames.Length; i++)
             {
@@ -184,7 +184,7 @@ namespace RGZ_POGI3_
                 {
                     second_click = true;
 
-                    fName = "C:/RGZ(POGI3)/Memo/Resources/twitters.mp3";
+                    fName = "C:/RGZ(POGI3)/Resources/twitters.mp3";
 
                     foreach (Button b in grid.Children)
                     {
