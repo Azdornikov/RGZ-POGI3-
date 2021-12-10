@@ -26,7 +26,7 @@ namespace RGZ_POGI3_
         public MainWindow()
         {
             InitializeComponent();
-            sound.repeat(fName);
+            //sound.repeat(fName);
         }
 
         private void tutorial_Click(object sender, RoutedEventArgs e)
