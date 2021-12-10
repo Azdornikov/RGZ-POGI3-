@@ -5,8 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RGZ_POGI3_"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Whirly Birdie - MEMO" Height="480" Width="320" ResizeMode="NoResize">
+    <Grid Background="FloralWhite">
+        <Button x:Name="newgame" Content="Новая игра" HorizontalAlignment="Left" Margin="10,193,0,0" VerticalAlignment="Top" Width="292" FontFamily="Montserrat" FontWeight="Bold" Background="{x:Null}" BorderThickness="0" FontSize="24" Click="newgame_Click"/>
+        <Button x:Name="options" Content="Настройки" HorizontalAlignment="Left" Margin="10,274,0,0" VerticalAlignment="Top" Width="292" FontFamily="Montserrat" FontWeight="Bold" BorderThickness="0" Background="{x:Null}" FontSize="24" Foreground="Black" Click="options_Click"/>
+        <Button x:Name="tutorial" Content="Правила" HorizontalAlignment="Left" Margin="10,154,0,0" VerticalAlignment="Top" Width="292" FontFamily="Montserrat" FontWeight="Bold" Background="{x:Null}" BorderThickness="0" FontSize="24" Click="tutorial_Click"/>
+        <Button x:Name="leaderboard" Content="Таблица лидеров" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Width="292" FontFamily="Montserrat" FontWeight="Bold" BorderThickness="0" Background="{x:Null}" FontSize="24" Click="leaderboard_Click"/>
+        <Button x:Name="quitgame" Content="Выход" HorizontalAlignment="Left" Margin="10,314,0,0" VerticalAlignment="Top" Width="292" FontFamily="Montserrat" FontWeight="Bold" Background="{x:Null}" BorderThickness="0" Click="quitgame_Click" FontSize="24"/>
+        <Image Margin="92,30,92,359" Source="logo.png" Stretch="Uniform" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-5"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label Content="ME&#xD;&#xA;MO" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontWeight="Bold" FontSize="24"/>
+        <Label Content="«Найди пару»" HorizontalAlignment="Left" Margin="92,87,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="8" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-5"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="lłlo¢kuú × Алина Ган" HorizontalAlignment="Left" Margin="80,215,-202,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="8" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" Width="434">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
     </Grid>
 </Window>
