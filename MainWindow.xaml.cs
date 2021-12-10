@@ -20,9 +20,40 @@ namespace RGZ_POGI3_
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
+            //sound.repeat(fName);
+        }
+
+        private void tutorial_Click(object sender, RoutedEventArgs e)
+        {
+            TutorialWindow tutorial = new TutorialWindow();
+            tutorial.ShowDialog();
+        }
+
+        private void newgame_Click(object sender, RoutedEventArgs e)
+        {
+            GameWindow ng = new GameWindow();
+            ng.ShowDialog();
+        }
+
+        private void leaderboard_Click(object sender, RoutedEventArgs e)
+        {
+            LeaderboardWindow lb = new LeaderboardWindow();
+            lb.ShowDialog();
+        }
+
+        private void options_Click(object sender, RoutedEventArgs e)
+        {
+            OptionsWindow options = new OptionsWindow();
+            options.ShowDialog();
+        }
+
+        private void quitgame_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
