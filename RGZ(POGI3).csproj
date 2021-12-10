@@ -111,7 +111,6 @@
     <Compile Include="CConnector.cs" />
     <Compile Include="CDataBase.cs" />
     <Compile Include="CConnector.cs" />
-    <Compile Include="CDataBasse.cs" />
     <Compile Include="CDBDataBase.cs" />
     <Compile Include="CGenerator.cs" />
     <Compile Include="MainWindow.xaml.cs">
