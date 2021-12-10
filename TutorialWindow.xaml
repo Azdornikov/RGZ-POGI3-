@@ -5,8 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RGZ_POGI3_"
         mc:Ignorable="d"
-        Title="TutorialWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Правила" Height="720" Width="720" ResizeMode="NoResize">
+    <Grid Background="FloralWhite">
+        <Label Content="MEMO" HorizontalAlignment="Left" Margin="311,10,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="24" FontWeight="Bold"/>
+        <Label Content="«Найди пару»" HorizontalAlignment="Left" Margin="322,36,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontWeight="Bold" FontSize="8"/>
+        <Label Content="Правила" HorizontalAlignment="Left" Margin="272,150,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="8" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-5"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="lłlo¢kuú × Алина Ган" HorizontalAlignment="Left" Margin="10,661,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontWeight="Bold" FontSize="8"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,450,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="184" Width="160" FontFamily="Montserrat" FontWeight="Bold" TextAlignment="Justify"><Run FontWeight="Normal" FontSize="16" Text="❶"/><Run FontWeight="Normal" Text=" "/><Run Text="Все 20 пар карточек перемешиваются и вы"/><Run Text="-"/><Run Text="кладываются рубашкой вверх."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="277,450,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="184" Width="160" FontFamily="Montserrat" FontWeight="Bold" TextAlignment="Justify"><Run Foreground="#E5000000" FontWeight="Normal" FontSize="16" Text="❷ "/><Run Text="Игроки поочерёдно переворачивают по одной паре карточек. Если карточки совпали, то игрок забирает их себе и делает ещё один ход. Если не совпали – кладёт их на тоже место рубашкой вверх и ход переходит к следующему."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="500,450,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="184" Width="160" FontFamily="Montserrat" FontWeight="Bold" TextAlignment="Justify"><Run Foreground="#E5000000" FontWeight="Normal" FontSize="16" Text="❸"/><Run Foreground="#E5000000" FontSize="16" Text=" "/><Run Text="Цель игры – запо"/><Run Text="-"/><Run Text="мнить, где находятся одинаковые пары."/><LineBreak/><Run/><LineBreak/><Run Text="Побеждает тот, кто соберёт больше всех пар карточек."/></TextBlock>
+        <Button Content="→" HorizontalAlignment="Left" Margin="650,634,0,0" VerticalAlignment="Top" Width="40" FontSize="24" BorderThickness="0" Background="{x:Null}" Height="40" Padding="1,-3,1,3" Click="Button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="40"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Image Margin="10,185,10,255" Source="tutorial.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
+        <Image Margin="270,73,272,538" Source="logo.png" Stretch="Uniform" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-5"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Window>

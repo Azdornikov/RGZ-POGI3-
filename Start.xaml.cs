@@ -58,4 +58,3 @@ namespace RGZ_POGI3_
         this.DialogResult = true;
     }
 }
-}
