@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RGZ_POGI3_"
         mc:Ignorable="d"
-        Title="" Height="200" Width="160">
+        Title="Start" Height="450" Width="800">
     <Grid Background="FloralWhite">
         <Label Content="Игрок 1:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontWeight="Bold"/>
         <Label Content="Игрок 2:" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontWeight="Bold"/>
