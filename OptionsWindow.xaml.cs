@@ -23,5 +23,12 @@ namespace RGZ_POGI3_
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //MainWindow mm = new MainWindow();
+            this.Close();
+            //mm.ShowDialog();
+        }
     }
 }

@@ -20,6 +20,8 @@ namespace RGZ_POGI3_
     /// </summary>
     public partial class MainWindow : Window
     {
+        CSound sound = new CSound();
+        string fName = "C:/RGZ(POGI3)/Memo/Resources/mainmenu.mp3";
 
         public MainWindow()
         {
