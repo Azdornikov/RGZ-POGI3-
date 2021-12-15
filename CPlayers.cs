@@ -16,7 +16,7 @@ namespace RGZ_POGI3_
 
         }
 
-        public void createplayers(List<string> players, int[] arr, Start w1, GameWindow w2)
+        public void createplayers(List<string> players, int[] arr, Start w1, GameWindow w2) // создание игроков, определяет по количеству введеных имен
         {
             if (w1.name1.Text != "")
             {
@@ -56,7 +56,7 @@ namespace RGZ_POGI3_
             }
         }
 
-        public void updatescore(int action, int[] arr, GameWindow w)
+        public void updatescore(int action, int[] arr, GameWindow w) //обновляет рекорд, определяя чей ход
         {
             if (action == 0)
             {
@@ -80,7 +80,7 @@ namespace RGZ_POGI3_
             }
         }
 
-        public void updatecolor(int action, GameWindow w)
+        public void updatecolor(int action, GameWindow w) // обновляет цвет, определяя чей ход
         {
             if (action == 0)
             {

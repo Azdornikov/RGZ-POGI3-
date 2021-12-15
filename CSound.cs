@@ -17,26 +17,26 @@ namespace RGZ_POGI3_
 
         }
 
-        public void play(string name)
+        public void play(string name) // проигрывание звука
         {
             sound.Open(new Uri(name, UriKind.Relative));
             sound.Play();
         }
 
-        public void repeat(string name)
+        public void repeat(string name) // повтор
         {
             music.Open(new Uri(name, UriKind.Relative));
             music.MediaEnded += new EventHandler(Media_Ended);
             music.Play();
         }
 
-        private void Media_Ended(object sender, EventArgs e)
+        private void Media_Ended(object sender, EventArgs e) // определение конца музыки
         {
             music.Position = TimeSpan.Zero;
             music.Play();
         }
 
-        public void stop()
+        public void stop() // остановка
         {
             music.Stop();
         }
