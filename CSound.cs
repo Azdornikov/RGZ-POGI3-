@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,6 +20,11 @@ namespace RGZ_POGI3_
 
         public void play(string name) // проигрывание звука
         {
+            if (Path.GetExtension(name) != ".mp3")
+            {
+                throw new Exception("музыку в студию");
+            }
+
             sound.Open(new Uri(name, UriKind.Relative));
             sound.Play();
         }

@@ -19,7 +19,7 @@ namespace RGZ_POGI3_
             CSound zvuk = new CSound();
             var exception = Assert.Throws<Exception>(() => zvuk.play(@"C:\RGZ(POGI3)\Cards\0.png"));
             // сравнение полученного сообщения с ожидаемым
-            Assert.That(exception.Message, Is.EqualTo("???"));
+            Assert.That(exception.Message, Is.EqualTo("музыку в студию"));
         }
     }
 }
