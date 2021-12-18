@@ -16,8 +16,8 @@ namespace RGZ_POGI3_
         [TestCase]
         public void TestSound()
         {
-            CSound zvuk = new CSound();
-            var exception = Assert.Throws<Exception>(() => zvuk.play(@"C:\RGZ(POGI3)\Cards\0.png"));
+            CSound s = new CSound();
+            var exception = Assert.Throws<Exception>(() => s.play(@"C:\RGZ(POGI3)\Cards\0.png")); //задаём вариант ошибки с неправильным расширением
             // сравнение полученного сообщения с ожидаемым
             Assert.That(exception.Message, Is.EqualTo("музыку в студию"));
         }

@@ -13,12 +13,12 @@ namespace RGZ_POGI3_
         [TestCase]
         public void TestGenerator()
         {
-            CGenerator c = new CGenerator(8, 8);
+            CGenerator c = new CGenerator(8, 8); // задаём вариант ошибки
 
             // получение исключения
             var exception = Assert.Throws<Exception>(() => c.generate());
             // сравнение полученного сообщения с ожидаемым
-            Assert.That(exception.Message, Is.EqualTo("Карточки исчерпаны"));
+            Assert.That(exception.Message, Is.EqualTo("Карточки закончились"));
 
         }
     }

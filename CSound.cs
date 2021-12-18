@@ -20,9 +20,9 @@ namespace RGZ_POGI3_
 
         public void play(string name) // проигрывание звука
         {
-            if (Path.GetExtension(name) != ".mp3")
+            if (Path.GetExtension(name) != ".mp3") // сравниваем расширение (формат)
             {
-                throw new Exception("музыку в студию");
+                throw new Exception("музыку в студию"); // вызываем ошибку
             }
 
             sound.Open(new Uri(name, UriKind.Relative));

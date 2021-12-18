@@ -29,7 +29,7 @@ namespace RGZ_POGI3_
             for (int i = 0; i < field.GetLength(0); i++)
                 for (int j = 0; j < field.GetLength(1); j++)
                 {
-                    if (cards.Count == 0) throw new Exception("Карточки исчерпаны");
+                    if (cards.Count == 0) throw new Exception("Карточки закончились"); // условие, что карточки закончились
 
                     number = rnd.Next(0, cards.Count);
                     field[i, j] = cards[number];
